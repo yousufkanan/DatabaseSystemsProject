@@ -30,7 +30,7 @@ def scrape_fighter_data(char):
     return fighters
 
 # Scrape data for all characters and save to a CSV file
-with open('ufc_fighters.csv', mode='w', newline='', encoding='utf-8') as csvfile:
+with open('archive/ufc_fighters.csv', mode='w', newline='', encoding='utf-8') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(['First Name', 'Last Name', 'Nickname', 'Height', 'Weight', 'Reach', 'Stance', 'Wins', 'Losses', 'Draws'])
 
