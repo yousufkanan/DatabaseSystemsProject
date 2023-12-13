@@ -1,168 +1,304 @@
-WeighClass	Fightcount
-Super Heavyweight	1
-Women's Featherweight	29
-Catch Weight	64
-Open Weight	117
-Women's Bantamweight	192
-Women's Flyweight	211
-Women's Strawweight	282
-Flyweight	309
-Bantamweight	630
-Light Heavyweight	659
-Heavyweight	684
-Featherweight	706
-Middleweight	985
-Welterweight	1244
-Lightweight	1282
-firstName	lastName	wins	losses	draws
-Khabib	Nurmagomedov	29	0	0
-Vitaly	Minakov	20	0	0
-Shavkat	Rakhmonov	17	0	0
-Movsar	Evloev	17	0	0
-Azat	Maksum	17	0	0
-Phillip	Miller	16	0	0
-Umar	Nurmagomedov	16	0	0
-Daniel	Marcos	15	0	0
-Michael	Morales	15	0	0
-Tatsuro	Taira	14	0	0
-Aliaskhab	Khizriev	14	0	0
-Ilia	Topuria	14	0	0
-Javid	Basharat	14	0	0
-Jean	Matsumoto	14	0	0
-Pietro	Menga	13	0	0
-Joe	Ray	13	0	0
-Khamzat	Chimaev	13	0	0
-Ian	Garry	13	0	0
-Yuele	Huang	13	0	0
-Azamat	Murzakanov	13	0	0
-Shara	Magomedov	12	0	0
-Everett	Cummings	12	0	0
-Michael	Page	12	0	0
-Muhammad	Mokaev	11	0	0
-Rickson	Gracie	11	0	0
-Nair	Melikyan	11	0	0
-Dmitry	Sosnovskiy	11	0	0
-Valter	Walker	11	0	0
-Shamil	Gaziev	11	0	0
-Farid	Basharat	11	0	0
-Tatiana	Suarez	11	0	0
-Rafael	Estevam	11	0	0
-Artem	Frolov	11	0	0
-Eli	Tamez	10	0	0
-Vitor	Petrino	10	0	0
-Jordan	Johnson	10	0	0
-Eduarda	Moura	10	0	0
-Martin	Buschkamp	9	0	0
-Adam	Piccolotti	9	0	0
-Nurullo	Aliev	9	0	0
-Julio Cesar	Neves Jr.	33	1	0
-Jon	Jones	27	1	0
-Islam	Makhachev	25	1	0
-Khusein	Askhabov	23	1	0
-Zabit	Magomedsharipov	18	1	0
-Sergei	Pavlovich	18	1	0
-Amir	Albazi	17	1	0
-Mateusz	Rebecki	17	1	0
-Fabio	Aguiar	17	1	0
-Jack	Shore	17	1	0
-R-Squared
-0.00533286804525322
-WeighClass	count
-Lightweight	1282
-Welterweight	1244
-Middleweight	985
-Featherweight	706
-Heavyweight	684
-Light Heavyweight	659
-Bantamweight	630
-Flyweight	309
-Women's Strawweight	282
-Women's Flyweight	211
-Women's Bantamweight	192
-Open Weight	117
-Catch Weight	64
-Women's Featherweight	29
-Super Heavyweight	1
-firstName	lastName	wins	losses	draws
-Khabib	Nurmagomedov	29	0	0
-Vitaly	Minakov	20	0	0
-Shavkat	Rakhmonov	17	0	0
-Movsar	Evloev	17	0	0
-Azat	Maksum	17	0	0
-Phillip	Miller	16	0	0
-Umar	Nurmagomedov	16	0	0
-Daniel	Marcos	15	0	0
-Michael	Morales	15	0	0
-Tatsuro	Taira	14	0	0
-Aliaskhab	Khizriev	14	0	0
-Ilia	Topuria	14	0	0
-Javid	Basharat	14	0	0
-Jean	Matsumoto	14	0	0
-Pietro	Menga	13	0	0
-Joe	Ray	13	0	0
-Khamzat	Chimaev	13	0	0
-Ian	Garry	13	0	0
-Yuele	Huang	13	0	0
-Azamat	Murzakanov	13	0	0
-Shara	Magomedov	12	0	0
-Everett	Cummings	12	0	0
-Michael	Page	12	0	0
-Muhammad	Mokaev	11	0	0
-Rickson	Gracie	11	0	0
-Nair	Melikyan	11	0	0
-Dmitry	Sosnovskiy	11	0	0
-Valter	Walker	11	0	0
-Shamil	Gaziev	11	0	0
-Farid	Basharat	11	0	0
-Tatiana	Suarez	11	0	0
-Rafael	Estevam	11	0	0
-Artem	Frolov	11	0	0
-Eli	Tamez	10	0	0
-Vitor	Petrino	10	0	0
-Jordan	Johnson	10	0	0
-Eduarda	Moura	10	0	0
-Martin	Buschkamp	9	0	0
-Adam	Piccolotti	9	0	0
-Nurullo	Aliev	9	0	0
-Julio Cesar	Neves Jr.	33	1	0
-Jon	Jones	27	1	0
-Islam	Makhachev	25	1	0
-Khusein	Askhabov	23	1	0
-Zabit	Magomedsharipov	18	1	0
-Sergei	Pavlovich	18	1	0
-Amir	Albazi	17	1	0
-Mateusz	Rebecki	17	1	0
-Fabio	Aguiar	17	1	0
-Jack	Shore	17	1	0
-WeighClass	count
-Lightweight	1282
-Welterweight	1244
-Middleweight	985
-Featherweight	706
-Heavyweight	684
-Light Heavyweight	659
-Bantamweight	630
-Flyweight	309
-Women's Strawweight	282
-Women's Flyweight	211
-Women's Bantamweight	192
-Open Weight	117
-Catch Weight	64
-Women's Featherweight	29
-Super Heavyweight	1
-WeighClass	AverageTakedownsPerFight
-Heavyweight	1.4575
-Welterweight	2.2251
-Middleweight	2.0142
-Catch Weight	2.4844
-Light Heavyweight	1.8710
-Women's Strawweight	2.1809
-Lightweight	2.3153
-Bantamweight	2.1889
-Flyweight	2.8511
-Featherweight	2.3796
-Women's Flyweight	2.1137
-Women's Bantamweight	2.0521
-Women's Featherweight	1.5862
-Super Heavyweight	3.0000
-Open Weight	0.8431
+--------------
+DROP TABLE if exists fighterNum
+--------------
+
+--------------
+DROP TABLE if exists fighterDen
+--------------
+
+--------------
+DROP TABLE if exists WomenFighters
+--------------
+
+--------------
+/* How many fights per weightclass. */
+Select WeighClass, Count(*) as Fightcount
+	 From Events
+	 Group by WeighClass
+	 Order by Fightcount
+--------------
+
++-----------------------+------------+
+| WeighClass            | Fightcount |
++-----------------------+------------+
+| Super Heavyweight     |          1 |
+| Women's Featherweight |         29 |
+| Catch Weight          |         64 |
+| Open Weight           |        117 |
+| Women's Bantamweight  |        192 |
+| Women's Flyweight     |        211 |
+| Women's Strawweight   |        282 |
+| Flyweight             |        309 |
+| Bantamweight          |        630 |
+| Light Heavyweight     |        659 |
+| Heavyweight           |        684 |
+| Featherweight         |        706 |
+| Middleweight          |        985 |
+| Welterweight          |       1244 |
+| Lightweight           |       1282 |
++-----------------------+------------+
+--------------
+/*Who has the highest win rate (out of min amount of fights) */
+
+SELECT firstName, lastName, wins , losses, draws
+FROM fighter
+WHERE (wins + losses + draws) > 8
+ORDER BY 
+    CASE 
+        WHEN (losses + draws) = 0 THEN wins / 0.00000001 -- handling division by almost zero
+        ELSE wins / (losses + draws) 
+    END DESC
+LIMIT 50
+--------------
+
++-------------+-----------------+------+--------+-------+
+| firstName   | lastName        | wins | losses | draws |
++-------------+-----------------+------+--------+-------+
+| Khabib      | Nurmagomedov    |   29 |      0 |     0 |
+| Vitaly      | Minakov         |   20 |      0 |     0 |
+| Shavkat     | Rakhmonov       |   17 |      0 |     0 |
+| Movsar      | Evloev          |   17 |      0 |     0 |
+| Azat        | Maksum          |   17 |      0 |     0 |
+| Phillip     | Miller          |   16 |      0 |     0 |
+| Umar        | Nurmagomedov    |   16 |      0 |     0 |
+| Daniel      | Marcos          |   15 |      0 |     0 |
+| Michael     | Morales         |   15 |      0 |     0 |
+| Tatsuro     | Taira           |   14 |      0 |     0 |
+| Aliaskhab   | Khizriev        |   14 |      0 |     0 |
+| Ilia        | Topuria         |   14 |      0 |     0 |
+| Javid       | Basharat        |   14 |      0 |     0 |
+| Jean        | Matsumoto       |   14 |      0 |     0 |
+| Pietro      | Menga           |   13 |      0 |     0 |
+| Joe         | Ray             |   13 |      0 |     0 |
+| Khamzat     | Chimaev         |   13 |      0 |     0 |
+| Ian         | Garry           |   13 |      0 |     0 |
+| Yuele       | Huang           |   13 |      0 |     0 |
+| Azamat      | Murzakanov      |   13 |      0 |     0 |
+| Shara       | Magomedov       |   12 |      0 |     0 |
+| Everett     | Cummings        |   12 |      0 |     0 |
+| Michael     | Page            |   12 |      0 |     0 |
+| Muhammad    | Mokaev          |   11 |      0 |     0 |
+| Rickson     | Gracie          |   11 |      0 |     0 |
+| Nair        | Melikyan        |   11 |      0 |     0 |
+| Dmitry      | Sosnovskiy      |   11 |      0 |     0 |
+| Valter      | Walker          |   11 |      0 |     0 |
+| Shamil      | Gaziev          |   11 |      0 |     0 |
+| Farid       | Basharat        |   11 |      0 |     0 |
+| Tatiana     | Suarez          |   11 |      0 |     0 |
+| Rafael      | Estevam         |   11 |      0 |     0 |
+| Artem       | Frolov          |   11 |      0 |     0 |
+| Eli         | Tamez           |   10 |      0 |     0 |
+| Vitor       | Petrino         |   10 |      0 |     0 |
+| Jordan      | Johnson         |   10 |      0 |     0 |
+| Eduarda     | Moura           |   10 |      0 |     0 |
+| Martin      | Buschkamp       |    9 |      0 |     0 |
+| Adam        | Piccolotti      |    9 |      0 |     0 |
+| Nurullo     | Aliev           |    9 |      0 |     0 |
+| Julio Cesar | Neves Jr.       |   33 |      1 |     0 |
+| Jon         | Jones           |   27 |      1 |     0 |
+| Islam       | Makhachev       |   25 |      1 |     0 |
+| Khusein     | Askhabov        |   23 |      1 |     0 |
+| Zabit       | Magomedsharipov |   18 |      1 |     0 |
+| Sergei      | Pavlovich       |   18 |      1 |     0 |
+| Amir        | Albazi          |   17 |      1 |     0 |
+| Mateusz     | Rebecki         |   17 |      1 |     0 |
+| Fabio       | Aguiar          |   17 |      1 |     0 |
+| Jack        | Shore           |   17 |      1 |     0 |
++-------------+-----------------+------+--------+-------+
+--------------
+/*using the regression coeffecient rormula we can do this
+-- get average reach of the fighters
+-- get average wins of the fighters */
+CREATE TABLE fighterNum AS(
+SELECT 
+    SUM((reach - (SELECT AVG(reach) FROM fighter)) 
+    * (wins - (SELECT AVG(wins) FROM fighter))) as numerator
+FROM 
+    fighter)
+--------------
+
+--------------
+Create Table fighterDen AS(
+SELECT
+    POW(SUM(POW(reach - (SELECT AVG(reach) FROM fighter), 2)),0.5) 
+    * POW(SUM(POW(wins - (SELECT AVG(wins) FROM fighter), 2)),0.5) as denominator
+FROM fighter)
+--------------
+
+--------------
+SELECT POW(numerator / denominator,2) as "R-Squared"
+FROM fighterNum, fighterDen
+--------------
+
++---------------------+
+| R-Squared           |
++---------------------+
+| 0.00533286804525322 |
++---------------------+
+--------------
+DROP TABLE fighterNum
+--------------
+
+--------------
+DROP TABLE fighterDen
+--------------
+
+--------------
+/* how many fighters are in each weight class */  
+Select WeighClass, count(*) as count
+from Events
+group by WeighClass
+order by count desc
+--------------
+
++-----------------------+-------+
+| WeighClass            | count |
++-----------------------+-------+
+| Lightweight           |  1282 |
+| Welterweight          |  1244 |
+| Middleweight          |   985 |
+| Featherweight         |   706 |
+| Heavyweight           |   684 |
+| Light Heavyweight     |   659 |
+| Bantamweight          |   630 |
+| Flyweight             |   309 |
+| Women's Strawweight   |   282 |
+| Women's Flyweight     |   211 |
+| Women's Bantamweight  |   192 |
+| Open Weight           |   117 |
+| Catch Weight          |    64 |
+| Women's Featherweight |    29 |
+| Super Heavyweight     |     1 |
++-----------------------+-------+
+--------------
+/* what is the average win/loss of 50 fighters. */
+SELECT firstName, lastName, wins , losses, draws
+FROM fighter
+WHERE (wins + losses + draws) > 8
+ORDER BY
+	CASE
+    	WHEN (losses + draws) = 0 THEN wins / 0.00000001 -- handling division by almost zero
+    	ELSE wins / (losses + draws)
+	END DESC
+LIMIT 50
+--------------
+
++-------------+-----------------+------+--------+-------+
+| firstName   | lastName        | wins | losses | draws |
++-------------+-----------------+------+--------+-------+
+| Khabib      | Nurmagomedov    |   29 |      0 |     0 |
+| Vitaly      | Minakov         |   20 |      0 |     0 |
+| Shavkat     | Rakhmonov       |   17 |      0 |     0 |
+| Movsar      | Evloev          |   17 |      0 |     0 |
+| Azat        | Maksum          |   17 |      0 |     0 |
+| Phillip     | Miller          |   16 |      0 |     0 |
+| Umar        | Nurmagomedov    |   16 |      0 |     0 |
+| Daniel      | Marcos          |   15 |      0 |     0 |
+| Michael     | Morales         |   15 |      0 |     0 |
+| Tatsuro     | Taira           |   14 |      0 |     0 |
+| Aliaskhab   | Khizriev        |   14 |      0 |     0 |
+| Ilia        | Topuria         |   14 |      0 |     0 |
+| Javid       | Basharat        |   14 |      0 |     0 |
+| Jean        | Matsumoto       |   14 |      0 |     0 |
+| Pietro      | Menga           |   13 |      0 |     0 |
+| Joe         | Ray             |   13 |      0 |     0 |
+| Khamzat     | Chimaev         |   13 |      0 |     0 |
+| Ian         | Garry           |   13 |      0 |     0 |
+| Yuele       | Huang           |   13 |      0 |     0 |
+| Azamat      | Murzakanov      |   13 |      0 |     0 |
+| Shara       | Magomedov       |   12 |      0 |     0 |
+| Everett     | Cummings        |   12 |      0 |     0 |
+| Michael     | Page            |   12 |      0 |     0 |
+| Muhammad    | Mokaev          |   11 |      0 |     0 |
+| Rickson     | Gracie          |   11 |      0 |     0 |
+| Nair        | Melikyan        |   11 |      0 |     0 |
+| Dmitry      | Sosnovskiy      |   11 |      0 |     0 |
+| Valter      | Walker          |   11 |      0 |     0 |
+| Shamil      | Gaziev          |   11 |      0 |     0 |
+| Farid       | Basharat        |   11 |      0 |     0 |
+| Tatiana     | Suarez          |   11 |      0 |     0 |
+| Rafael      | Estevam         |   11 |      0 |     0 |
+| Artem       | Frolov          |   11 |      0 |     0 |
+| Eli         | Tamez           |   10 |      0 |     0 |
+| Vitor       | Petrino         |   10 |      0 |     0 |
+| Jordan      | Johnson         |   10 |      0 |     0 |
+| Eduarda     | Moura           |   10 |      0 |     0 |
+| Martin      | Buschkamp       |    9 |      0 |     0 |
+| Adam        | Piccolotti      |    9 |      0 |     0 |
+| Nurullo     | Aliev           |    9 |      0 |     0 |
+| Julio Cesar | Neves Jr.       |   33 |      1 |     0 |
+| Jon         | Jones           |   27 |      1 |     0 |
+| Islam       | Makhachev       |   25 |      1 |     0 |
+| Khusein     | Askhabov        |   23 |      1 |     0 |
+| Zabit       | Magomedsharipov |   18 |      1 |     0 |
+| Sergei      | Pavlovich       |   18 |      1 |     0 |
+| Amir        | Albazi          |   17 |      1 |     0 |
+| Mateusz     | Rebecki         |   17 |      1 |     0 |
+| Fabio       | Aguiar          |   17 |      1 |     0 |
+| Jack        | Shore           |   17 |      1 |     0 |
++-------------+-----------------+------+--------+-------+
+--------------
+/*how many fights per weight class */
+Select WeighClass, count(*) as count
+from Events
+group by WeighClass
+order by count desc
+--------------
+
++-----------------------+-------+
+| WeighClass            | count |
++-----------------------+-------+
+| Lightweight           |  1282 |
+| Welterweight          |  1244 |
+| Middleweight          |   985 |
+| Featherweight         |   706 |
+| Heavyweight           |   684 |
+| Light Heavyweight     |   659 |
+| Bantamweight          |   630 |
+| Flyweight             |   309 |
+| Women's Strawweight   |   282 |
+| Women's Flyweight     |   211 |
+| Women's Bantamweight  |   192 |
+| Open Weight           |   117 |
+| Catch Weight          |    64 |
+| Women's Featherweight |    29 |
+| Super Heavyweight     |     1 |
++-----------------------+-------+
+--------------
+/* average number of takedowns per fight sorted by weightclass */ 
+SELECT events.WeighClass, AVG(events.Takedowns1 + events.Takedowns2) AS AverageTakedownsPerFight
+FROM events
+GROUP BY events.WeighClass
+--------------
+
++-----------------------+--------------------------+
+| WeighClass            | AverageTakedownsPerFight |
++-----------------------+--------------------------+
+| Heavyweight           |                   1.4575 |
+| Welterweight          |                   2.2251 |
+| Middleweight          |                   2.0142 |
+| Catch Weight          |                   2.4844 |
+| Light Heavyweight     |                   1.8710 |
+| Women's Strawweight   |                   2.1809 |
+| Lightweight           |                   2.3153 |
+| Bantamweight          |                   2.1889 |
+| Flyweight             |                   2.8511 |
+| Featherweight         |                   2.3796 |
+| Women's Flyweight     |                   2.1137 |
+| Women's Bantamweight  |                   2.0521 |
+| Women's Featherweight |                   1.5862 |
+| Super Heavyweight     |                   3.0000 |
+| Open Weight           |                   0.8431 |
++-----------------------+--------------------------+
+--------------
+/* create a seperate table for women fighters */ 
+CREATE TABLE WomenFighters AS
+SELECT DISTINCT Fighter1 AS FighterName
+FROM events
+WHERE WeighClass LIKE '%women%'
+UNION
+SELECT DISTINCT Fighter2 AS FighterName
+FROM events
+WHERE WeighClass LIKE '%women%'
+--------------
+
