@@ -7,8 +7,11 @@ DROP TABLE if exists fighterDen;
 
 
 --How many fights per weightclass.
+Select WeighClass, Count(*) as Fightcount
+	 From Events
+	 Group by WeighClass
+	 Order by Fightcount;
 
---What is the average age of fighters
 
 
 --Who has the highest win rate (out of min amount of fights)
@@ -23,8 +26,6 @@ ORDER BY
     END DESC
 LIMIT 50;
 
-
---What effect does reach have on wins
 -- using the regression coeffecient rormula we can do this
 -- get average reach of the fighters
 -- get average wins of the fighters
@@ -59,4 +60,35 @@ group by weight_class
 order by count desc;
 
 
---who has the fastest average fight time (out of min amount of fights)
+--what is the average win/loss of 50 fighters. 
+SELECT firstName, lastName, wins , losses, draws
+FROM fighter
+WHERE (wins + losses + draws) > 8
+ORDER BY
+	CASE
+    	WHEN (losses + draws) = 0 THEN wins / 0.00000001 -- handling division by almost zero
+    	ELSE wins / (losses + draws)
+	END DESC
+LIMIT 50;
+
+--how many fights per weight class
+Select weight_class, count(*) as count
+from weightClass
+group by weight_class
+order by count desc;
+
+--average number of takedowns per fight sorted by weightclass 
+SELECT events.WeighClass, AVG(events.Takedowns1 + events.Takedowns2) AS AverageTakedownsPerFight
+FROM events
+GROUP BY events.WeighClass;
+
+--create a seperate table for women fighters
+CREATE TABLE WomenFighters AS
+SELECT DISTINCT Fighter1 AS FighterName
+FROM events
+WHERE WeighClass LIKE '%women%'
+UNION
+SELECT DISTINCT Fighter2 AS FighterName
+FROM events
+WHERE WeighClass LIKE '%women%';
+
