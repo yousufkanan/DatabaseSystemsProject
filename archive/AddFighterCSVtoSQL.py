@@ -7,7 +7,7 @@ CLASS: DATABSE SYSTEMS
 
 INSTRUCTOR: DR. GREGORY SCHAPER
 
-AUTHOR: YOUSUF KANAN AND DEREK 
+AUTHOR: YOUSUF KANAN AND DEREK Allmon 
 """
 
 import csv 
@@ -96,7 +96,7 @@ def main():
     cursor, connection = connectToMySQL()
  #   createDatabase(cursor, DB_NAME)  # comment this line after first successful run
     cursor.execute("USE {}".format(DB_NAME))
-   # makeTable(cursor)   # comment this line after first successful run
+    makeTable(cursor)   # comment this line after first successful run
     insertData(cursor)  # comment this line after first successful run
 
     # don't modify below this line

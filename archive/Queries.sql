@@ -3,10 +3,11 @@ Use finalProject;
 
 DROP TABLE if exists fighterNum;
 DROP TABLE if exists fighterDen;
+DROP TABLE if exists WomenFighters;
 
 
 
---How many fights per weightclass.
+/* How many fights per weightclass. */
 Select WeighClass, Count(*) as Fightcount
 	 From Events
 	 Group by WeighClass
@@ -14,7 +15,7 @@ Select WeighClass, Count(*) as Fightcount
 
 
 
---Who has the highest win rate (out of min amount of fights)
+/*Who has the highest win rate (out of min amount of fights) */
 
 SELECT firstName, lastName, wins , losses, draws
 FROM fighter
@@ -26,9 +27,9 @@ ORDER BY
     END DESC
 LIMIT 50;
 
--- using the regression coeffecient rormula we can do this
+/*using the regression coeffecient rormula we can do this
 -- get average reach of the fighters
--- get average wins of the fighters
+-- get average wins of the fighters */
 CREATE TABLE fighterNum AS(
 SELECT 
     SUM((reach - (SELECT AVG(reach) FROM fighter)) 
@@ -53,14 +54,14 @@ DROP TABLE fighterDen;
 
 
 
---how many fighters are in each weight class 
-Select weight_class, count(*) as count
-from weightClass
-group by weight_class
+/* how many fighters are in each weight class */  
+Select WeighClass, count(*) as count
+from Events
+group by WeighClass
 order by count desc;
 
 
---what is the average win/loss of 50 fighters. 
+/* what is the average win/loss of 50 fighters. */
 SELECT firstName, lastName, wins , losses, draws
 FROM fighter
 WHERE (wins + losses + draws) > 8
@@ -71,18 +72,18 @@ ORDER BY
 	END DESC
 LIMIT 50;
 
---how many fights per weight class
-Select weight_class, count(*) as count
-from weightClass
-group by weight_class
+/*how many fights per weight class */
+Select WeighClass, count(*) as count
+from Events
+group by WeighClass
 order by count desc;
 
---average number of takedowns per fight sorted by weightclass 
+/* average number of takedowns per fight sorted by weightclass */ 
 SELECT events.WeighClass, AVG(events.Takedowns1 + events.Takedowns2) AS AverageTakedownsPerFight
 FROM events
 GROUP BY events.WeighClass;
 
---create a seperate table for women fighters
+/* create a seperate table for women fighters */ 
 CREATE TABLE WomenFighters AS
 SELECT DISTINCT Fighter1 AS FighterName
 FROM events
